@@ -15,14 +15,14 @@ The service is currently up and running on Google Cloud Platform.
 Check if the service is running.
 
 ```bash
-curl [https://simple-ai-service-ahwjz2njsa-uc.a.run.app/](https://simple-ai-service-ahwjz2njsa-uc.a.run.app/)
+curl https://simple-ai-service-ahwjz2njsa-uc.a.run.app/
 ```
 
 ### 2. Sentiment Analysis
 Send a POST request to analyze text.
 
 ```bash
-curl -X POST "[https://simple-ai-service-ahwjz2njsa-uc.a.run.app/predict](https://simple-ai-service-ahwjz2njsa-uc.a.run.app/predict)" \
+curl -X POST "https://simple-ai-service-ahwjz2njsa-uc.a.run.app/predict" \
      -H "Content-Type: application/json" \
      -d '{"text": "I really love this product, it is awesome!"}'
 ```
