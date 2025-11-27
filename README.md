@@ -35,17 +35,17 @@ curl -X POST "https://simple-ai-service-ahwjz2njsa-uc.a.run.app/predict" \
 
 ### Quick Start
 1. **Install dependencies:**
-```shell
+```bash
 uv sync
 ```
 
 2. **Activate virtual environment:**
-```shell
+```bash
 source .venv/bin/activate
 ```
 
 3. **Run the server locally:**
-```shell
+```bash
 fastapi run app/main.py
 ```
 
@@ -94,7 +94,7 @@ gcloud run deploy simple-ai-service \
 
 ## 🧪 Testing
 To run the backend tests:
-```shell
+```bash
 bash ./scripts/test.sh
 ```
 
